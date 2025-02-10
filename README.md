@@ -1,5 +1,5 @@
 # PCIe
-o modify your run.ai code for using a PCIe-based AI accelerator (such as a GPU, FPGA, or ASIC like NVIDIA, Xilinx, or Intel accelerators) for both inference and training
+Modify run.ai code for using a PCIe-based AI accelerator (such as a GPU, FPGA, or ASIC like NVIDIA, Xilinx, or Intel accelerators) for both inference and training
 1. Set Up the PCIe AI Accelerator
 Install the required drivers and SDKs for your PCIe accelerator. For example:
 NVIDIA GPUs: Install CUDA and cuDNN.
