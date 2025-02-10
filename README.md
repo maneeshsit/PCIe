@@ -10,7 +10,7 @@ Ensure the PCIe device is visible via tools like lspci (Linux) or equivalent com
 2. Modify Training Code
 Use the appropriate deep learning framework and ensure device targeting is set to the PCIe accelerator. Examples:
 
-3. 4.  code files
+3. and 4.  code files
 
 5. Use Accelerator-Specific Optimizations
 For NVIDIA GPUs: Use TensorRT for inference optimization.
