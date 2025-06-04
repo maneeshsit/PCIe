@@ -11,7 +11,7 @@
         "description": "I am a developer interested in FOSS technologies, focussed on enhancing the reach and usability of FOSS for AI Platform Factories.",             
         "webpageUrl": {
             "url": "https://digx.tech/",                  
-            "wellKnown": "https://digx.tech/.well-known/funding-manifest-urls"             
+            "wellKnown": "https://github.com/user/project/blob/main/funding.json"             
         }
     },
 
