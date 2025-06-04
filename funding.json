@@ -1,8 +1,7 @@
 {
     "version": "v1.0.0",
 
-    // Required. The entity associated with the project, soliciting funds.
-    // This can be an individual, organisation, community etc.
+    
     "entity": {
         "type": "individual",                     
         "role": "maintainer",                     
@@ -16,7 +15,7 @@
         }
     },
 
-    // Optional. One or more projects for which the funding is solicited.
+    
     "projects": [{
         "guid": "PCIe",                     
         "name": "PCIe",                     
@@ -33,9 +32,9 @@
         "tags": ["pcie","mpi4py","cxl","run:ai","cxl-mem","mpio","llm-d","paxos-cluster","DisTrO","DeMo"]                      
     }],
 
-    // Required.
+    
     "funding": {
-        // Required. This describes one or more channels via which the entity can receive funds.
+        
         "channels": [{
             "guid": "mybank",                
             "type": "bank",                 
@@ -43,7 +42,7 @@
             "description": "Will accept direct bank transfers. Please e-mail me for details."           
         }],
 
-        // Required. One or more funding and payment plans.
+        
         "plans": [{
             "guid": "hosting-monthly",                 
             "status": "active",               
@@ -55,7 +54,7 @@
             "channels": ["mybank"]              
         }],
 
-        // Optional. A simple summary of funding history. Only include if at least one, either income or expenses, have to be communicated.
+        
         "history": [{
             "year": 2024,               
             "income": 0,                
