@@ -1,68 +1,57 @@
 {
-    "version": "v1.0.0",
-
-    
-    "entity": {
-        "type": "individual",                     
-        "role": "maintainer",                     
-        "name": "PCIe",                     
-        "email": "maneesh.sharma@hotmail.com",                    
-        "phone": "+919885856259",                    
-        "description": "I am a developer interested in FOSS technologies, focussed on enhancing the reach and usability of FOSS for AI Platform Factories.",             
-        "webpageUrl": {
-            "url": "https://digx.tech",                  
-            "wellKnown": "https://github.com/maneeshsit/PCIe/blob/main/funding.json"             
-        }
-    },
-
-    
-    "projects": [{
-        "guid": "PCIe",                     
-        "name": "PCIe",                     
-        "description": "Modify run.ai and other FOSS projects code for using a PCIe based hardware AI accelerators for both inference and training",              
-        "webpageUrl": {
-            "url": "https://digx.tech"                 
-        },       
-        
-        "repositoryUrl": {
-            "url": "https://github.com/maneeshsit/PCIe",                  
-            "wellKnown": "https://github.com/maneeshsit/PCIe/blob/main/.well-known/funding-manifest-urls"             
-        },
-        "licenses": ["spdx:Apache License","spdx:MIT license"],                 
-        "tags": ["pcie","mpi4py","cxl","run:ai","cxl-mem","mpio","llm-d","paxos-cluster","DisTrO","DeMo"]                      
-    }],
-
-    
-    "funding": {
-        
-        "channels": [{
-            "guid": "mybank",                
-            "type": "bank",                 
-            "address": "9885856259@pthdfc",              
-            "description": "Will accept direct bank transfers. Please e-mail me for details."           
-        }],
-
-        
-        "plans": [{
-            "guid": "hosting-monthly",                 
-            "status": "active",               
-            "name": "Infra hosting",                
-            "description": "This will cover the monthly server hosting costs for the projects.",          
-            "amount": 250,                
-            "currency": "USD",             
-            "frequency": "monthly",            
-            "channels": ["mybank"]              
-        }],
-
-        
-        "history": [{
-            "year": 2024,               
-            "income": 0,                
-            "expenses": 0,              
-            "taxes": 0,                 
-            "currency": "USD",             
-            "description": "Only a Plan with bootstrapping code in the repo"           
-        }]
+  "version": "v1.0.0",
+  "entity": {
+    "type": "individual",
+    "role": "maintainer",
+    "name": "PCIe",
+    "email": "maneesh.sharma@hotmail.com",
+    "phone": "+919885856259",
+    "description": "I am a developer interested in FOSS technologies, focussed on enhancing the reach and usability of FOSS for AI Platform Factories.",
+    "webpageUrl": "https://digx.tech",
+    "wellKnown": "https://github.com/maneeshsit/PCIe/blob/main/funding.json"
+  },
+  "projects": [
+    {
+      "guid": "PCIe",
+      "name": "PCIe",
+      "description": "Modify run.ai and other FOSS projects code for using a PCIe based hardware AI accelerators for both inference and training",
+      "webpageUrl": "https://digx.tech",
+      "repositoryUrl": "https://github.com/maneeshsit/PCIe",
+      "wellKnown": "https://github.com/maneeshsit/PCIe/blob/main/.well-known/funding-manifest-urls",
+      "licenses": ["Apache-2.0", "MIT"],
+      "tags": ["pcie", "mpi4py", "cxl", "run:ai", "cxl-mem", "mpio", "llm-d", "paxos-cluster", "DisTrO", "DeMo"]
     }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "mybank",
+        "type": "bank",
+        "address": "9885856259@pthdfc",
+        "description": "Will accept direct bank transfers. Please e-mail me for details."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "hosting-monthly",
+        "status": "active",
+        "name": "Infra hosting",
+        "description": "This will cover the monthly server hosting costs for the projects.",
+        "amount": 250,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": ["mybank"]
+      }
+    ],
+    "history": [
+      {
+        "year": 2024,
+        "income": 0,
+        "expenses": 0,
+        "taxes": 0,
+        "currency": "USD",
+        "description": "Only a Plan with bootstrapping code in the repo"
+      }
+    ]
+  }
 }
-
