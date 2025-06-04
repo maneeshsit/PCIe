@@ -10,8 +10,8 @@
         "phone": "+919885856259",                    
         "description": "I am a developer interested in FOSS technologies, focussed on enhancing the reach and usability of FOSS for AI Platform Factories.",             
         "webpageUrl": {
-            "url": "https://github.com",                  
-            "wellKnown": "https://github.com/user/project/blob/main/funding.json"             
+            "url": "https://digx.tech",                  
+            "wellKnown": ""             
         }
     },
 
@@ -22,11 +22,11 @@
         "description": "Modify run.ai and other FOSS projects code for using a PCIe based hardware AI accelerators for both inference and training",              
         "webpageUrl": {
             "url": "https://digx.tech/",                  
-            "wellKnown": "https://github.com/maneeshsit/PCIe"              
+                         
         },
         "repositoryUrl": {
             "url": "https://github.com/maneeshsit/PCIe",                  
-            "wellKnown": "https://github.com/maneeshsit/PCIe"             
+            "wellKnown": "https://github.com/maneeshsit/PCIe/blob/main/.well-known/funding-manifest-urls"             
         },
         "licenses": ["spdx:Apache License","spdx:MIT license"],                 
         "tags": ["pcie","mpi4py","cxl","run:ai","cxl-mem","mpio","llm-d","paxos-cluster","DisTrO","DeMo"]                      
