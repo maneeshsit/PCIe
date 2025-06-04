@@ -1,0 +1,69 @@
+{
+    "version": "v1.0.0",
+
+    // Required. The entity associated with the project, soliciting funds.
+    // This can be an individual, organisation, community etc.
+    "entity": {
+        "type": "individual",                     // Required. [individual, group, organisation, other]. Use the closest approximation.
+        "role": "maintainer",                     // Required. [owner, steward, maintainer, contributor, other]. Use the closest approximation.
+        "name": "PCIe",                     // Required. Name of the entity. Max len 250.
+        "email": "maneesh.sharma@hotmail.com",                    // Required. Max len 250.
+        "phone": "+919885856259",                    // Optional. Generally suitable for organisations. Max len 32.
+        "description": "I'm a developer interested in FOSS technologies, focussed on enhancing the reach and usability of FOSS for AI Platform Factories.\n\n\n\",              // Required. Information about the entity. Max len 2000.
+        "webpageUrl": {
+            "url": "https://digx.tech/",                  // Required. Webpage with information about the entity. Starts with https:// or http://. Max len 250.
+            "wellKnown": "https://github.com/maneeshsit/PCIe"             // Optional. Required if the above url and the URL of the funding.json manifest do not have the same hostname. Starts with https:// or http://. Max len 250.
+        }
+    },
+
+    // Optional. One or more projects for which the funding is solicited.
+    "projects": [{
+        "guid": "PCIe",                     // Required. A short unique ID for the project. Lowercase-alphanumeric-dashes only. eg: my-cool-project. Max len 32.
+        "name": "PCIe",                     // Required. Name of the project. Max len 250.
+        "description": "Modify run.ai and other FOSS projects code for using a PCIe based hardware AI accelerators for both inference and training",              // Required. Description of the project. Max len 2000.
+        "webpageUrl": {
+            "url": "https://digx.tech/",                  // Required. Webpage with information about the project. Starts with https:// or http://. Max len 250.
+            "wellKnown": "https://github.com/maneeshsit/PCIe"             // Optional. Required if the above url and the URL of the funding.json manifest do not have the same hostname. Starts with https:// or http://. Max len 250.
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/maneeshsit/PCIe",                  // Required. URL of the repository where the project's source code and other assets are available. Starts with https:// or http://. Max len 250.
+            "wellKnown": "https://github.com/maneeshsit/PCIe"             // Optional. Required if the above url and the URL of the funding.json manifest do not have the same hostname. Starts with https:// or http://. Max len 250.
+        },
+        "licenses": ["Apache License","MIT license"],                 // Required. The project's licenses (up to 5). For standard licenses, use the license ID from the SDPX index prefixed by "spdx:". eg: "spdx:GPL-3.0", "spdx:CC-BY-SA-4.0"
+        "tags": ["pcie","mpi4py","cxl","run:ai","cxl-mem","mpio","llm-d","paxos-cluster","DisTrO","DeMo"]                      // Required. Up to 10 general tags describing the project. Lowercase-alphanumeric-dashes (max 32 chars). eg: ["programming", "developer-tools"]. For reference, see tags.txt
+    }],
+
+    // Required.
+    "funding": {
+        // Required. This describes one or more channels via which the entity can receive funds.
+        "channels": [{
+            "guid": "mybank",                 // Required. A short unique ID for the channel. Lowercase-alphanumeric-dashes only. eg: mybank, my-paypal. Max len 32.
+            "type": "bank",                 // Required. [bank, payment-provider, cheque, cash, other].
+            "address": "9885856259@pthdfc",              // Optional. A short unstructured textual representation of the payment address for the channel. eg: "Account: 12345 (branch: ABCX)", "mypaypal@domain.com", "https://payment-url.com", or a physical address for cheques. Max len 250.
+            "description": "Will accept direct bank transfers. Please e-mail me for details."           // Optional. Any additional description or instructions for the payment channel. Max len 500.
+        }],
+
+        // Required. One or more funding and payment plans.
+        "plans": [{
+            "guid": "hosting-monthly",                 // Required. A short unique ID for the plan. Lowercase-alphanumeric-dashes only. eg: mybank, paypal. Max len 32.
+            "status": "active",               // Required. [active, inactive]. Indicates whether this plan is currently active or inactive.
+            "name": "Infra hosting",                 // Required. Name of the funding plan. eg: "Starter support plan", "Infra hosting", "Monthly funding plan".
+            "description": "This will cover the monthly server hosting costs for the projects.",          // Optional. Any additional description or instructions for the funding plan.
+            "amount": 250,                // Required. The solicited amount for this plan. 0 is a wildcard that indicates "any amount".
+            "currency": "USD",             // Required. Three letter ISO 4217 currency code. eg: USD
+            "frequency": "monthly",            // Required. [one-time, weekly, fortnightly, monthly, yearly, other]
+            "channels": ["mybank"]              // Required. One or more channel IDs defined in channels[] via which this plan can accept payments.
+        }],
+
+        // Optional. A simple summary of funding history. Only include if at least one, either income or expenses, have to be communicated.
+        "history": [{
+            "year": 2024,               // Required. Year (fiscal, preferably).
+            "income": 0,                // Optional.
+            "expenses": 0,              // Optional.
+            "taxes": 0,                 // Optional.
+            "currency": "USD",             // Required. Three letter ISO 4217 currency code. eg: USD
+            "description": "Only a Plan with bootstrapping code in the repo"           // Optional. Any additional description. Max length 500.
+        }]
+    }
+}
+
