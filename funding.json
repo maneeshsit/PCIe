@@ -21,7 +21,7 @@
         "name": "PCIe",                     
         "description": "Modify run.ai and other FOSS projects code for using a PCIe based hardware AI accelerators for both inference and training",              
         "webpageUrl": {
-            "url": "https://digx.tech/"                 
+            "url": "https://digx.tech"                 
         },       
         
         "repositoryUrl": {
