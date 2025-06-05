@@ -7,7 +7,7 @@
     "email": "maneesh.sharma@hotmail.com",
     "phone": "+919885856259",
     "description": "I am a developer interested in FOSS technologies, focussed on enhancing the reach and usability of FOSS for AI Platform Factories.",
-    "webpageUrl": "https://digx.tech",
+    "webpageUrl": "",
     "wellKnown": "https://github.com/maneeshsit/PCIe/blob/main/funding.json"
   },
   "projects": [
@@ -15,7 +15,7 @@
       "guid": "PCIe",
       "name": "PCIe",
       "description": "Modify run.ai and other FOSS projects code for using a PCIe based hardware AI accelerators for both inference and training",
-      "webpageUrl": "https://digx.tech",
+      "webpageUrl": "",
       "repositoryUrl": "https://github.com/maneeshsit/PCIe",
       "wellKnown": "https://github.com/maneeshsit/PCIe/blob/main/.well-known/funding-manifest-urls",
       "licenses": ["Apache-2.0", "MIT"],
