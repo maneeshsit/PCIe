@@ -24,7 +24,6 @@ NVIDIA: nvidia-smi
 Intel: OpenVINO Benchmark Tool
 Xilinx: Vitis AI Profiler
 
+# AI accelerator hardware agnostic AI Factory
 ![AI Platform Factory](https://github.com/user-attachments/assets/423d5a85-9c8b-44dc-b47a-41ddce3c48d7)
 
-# DIY AI Infrastructure
-https://medium.com/@maneeshsharma_68969/diy-ai-infrastructure-a7a1ecf8d688
