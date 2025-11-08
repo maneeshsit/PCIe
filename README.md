@@ -1,5 +1,5 @@
 # PCIe
-Open Source alternative to run.ai code for using a PCIe-based AI accelerator (such as a GPU, FPGA, or ASICs from NVIDIA, AMD, Xilinx, Intel, and others) for both inference and training
+Open Source code for using PCIe-based AI accelerators (support for PCIe-based AI accelerators such as a GPU, FPGA, or ASICs from NVIDIA, AMD, Xilinx, Intel, and more) for both inference and training. Democratizing access to multimodal large language models, proving that accessing, high-performance LLM inference is achievable beyond centralized data centers and on the hardware people already own or plan to own.
 1. Set Up the PCIe AI Accelerator
 Install the required drivers and SDKs for your PCIe accelerator. For example:
 NVIDIA GPUs: Install CUDA and cuDNN.
@@ -16,7 +16,7 @@ Use the appropriate deep learning framework and ensure device targeting is set t
 For NVIDIA GPUs: Use TensorRT for inference optimization.
 For Intel FPGAs: Use OpenVINO's optimized inference engine.
 For Xilinx FPGAs: Use Vitis AI tools for quantization and deployment.
-For AMD GPUs: Use ROCm libraries for machine learning, computer vision, and mathematical computations.
+For AMD GPUs: Use ROCm libraries and tools like ROCProfiler and ROCTrace for machine learning, computer vision, and mathematical computations.
 
 
 7. Monitor and Debug
