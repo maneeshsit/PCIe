@@ -16,9 +16,10 @@ Use the appropriate deep learning framework and ensure device targeting is set t
 For NVIDIA GPUs: Use TensorRT for inference optimization.
 For Intel FPGAs: Use OpenVINO's optimized inference engine.
 For Xilinx FPGAs: Use Vitis AI tools for quantization and deployment.
+For AMD GPUs: Use ROCm libraries for machine learning, computer vision, and mathematical computations.
 
 
-6. Monitor and Debug
+7. Monitor and Debug
 Use monitoring tools to ensure efficient usage of the PCIe accelerator:
 NVIDIA: nvidia-smi
 Intel: OpenVINO Benchmark Tool
