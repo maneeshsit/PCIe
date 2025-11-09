@@ -1,5 +1,5 @@
 # PCIe
-Open Source code for using PCIe-based AI accelerators (support for PCIe-based AI accelerators such as GPUs, FPGAs, ASICs from NVIDIA, AMD, Xilinx, Intel, Huawei and more) for both inference and training. Democratizing access to multimodal large language models, proving that accessing high-performance LLM inference is achievable beyond centralized data centers and on the hardware people already own or plan to own.
+Open Source code for using PCIe-based AI accelerators (support for PCIe-based AI accelerators such as GPUs, FPGAs, ASICs from NVIDIA, AMD, Xilinx, Intel, Huawei and more) for both inference and training, maximizing hardware efficiency and increasing accessibility. Democratizing access to multimodal large language models, proving that accessing high-performance LLM inference is achievable beyond centralized data centers and on the hardware people already own or plan to own.
 1. Set Up the PCIe AI Accelerator
 Install the required drivers and SDKs for your PCIe accelerator. For example:
 NVIDIA GPUs: Install CUDA and cuDNN.
