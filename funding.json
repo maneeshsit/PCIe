@@ -4,7 +4,7 @@
     "type": "individual",
     "role": "maintainer",
     "name": "PCIe",
-    "email": "maneesh.sharma@hotmail.com",
+    "email": "",
     "phone": "+919885856259",
     "description": "I am a developer interested in FOSS technologies, focussed on enhancing the reach and usability of FOSS for AI Platform Factories.",
     "webpageUrl": "",
@@ -50,8 +50,9 @@
         "expenses": 0,
         "taxes": 0,
         "currency": "USD",
-        "description": "Only a Plan with bootstrapping code in the repo"
+        "description": "Plan with bootstrapping code in the repo"
       }
     ]
   }
 }
+
